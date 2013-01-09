@@ -1,5 +1,5 @@
 <FilesMatch "\.(inc|jdb)$>
-deny from all
+allow from all
 </FilesMatch>
 
 RewriteEngine On

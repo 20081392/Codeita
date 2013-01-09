@@ -1,7 +1,3 @@
 <FilesMatch "\.(inc|jdb)$>
 allow from all
 </FilesMatch>
-
-RewriteEngine On
-RewriteRule ^setup(.*)$ setup.php?%{QUERY_STRING} [L]
-RewriteRule ^index(.*)$ index.php?%{QUERY_STRING} [L]
